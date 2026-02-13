@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1200" />
+  <title>McDonald's India | Educational Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">M</div>
+    <button id="themeToggle" class="theme-btn">Toggle Theme</button>
+    <nav class="nav">
+      <a class="active" href="#">Menu</a>
+      <a href="#">Restaurants</a>
+      <a href="#">McDelivery</a>
+      <a href="#">News</a>
+      <a href="#">Birthday Party</a>
+      <a href="#">Careers</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <h1>The New<br><span>Signature<br>Collection</span><br>by McDonald's</h1>
+  </div>
+  <div class="hero-divider"></div>
+  <div class="hero-right">
+    <div class="hero-badge">THE NEW<br><strong>Signature</strong></div>
+    <h2>FLAVOURS THAT MAKE YOU GO<br><span>WHOOAAA!</span></h2>
+    <div class="burger-row">
+      <img src="images/burger1.png" class="burger" alt="Burger 1">
+      <img src="images/burger2.png" class="burger" alt="Burger 2">
+    </div>
+  </div>
+</section>
+
+<!-- HAPPY MEAL -->
+<section class="hmr">
+  <div class="hmr-left">
+    <div class="hmr-badge">Happy Meal Readers</div>
+    <h2>Spark kids’ curiosity<br>with Happy Meal Readers</h2>
+    <p>Encouraging reading as a fun family activity.</p>
+  </div>
+  <div class="hmr-right">
+    <img src="images/happymeal1.png" class="book-card">
+    <img src="images/happymeal2.png" class="book-card">
+    <img src="images/happymeal3.png" class="book-card">
+  </div>
+</section>
+
+<!-- CITY -->
+<section class="city">
+  <div class="city-left">
+    <h2>Select City</h2>
+    <div class="select" id="citySelect">Select a City</div>
+    <div class="tooltip">Please select a city to find the nearest McDonald's store</div>
+  </div>
+  <div class="city-right">
+    <img src="images/city.png" class="city-image">
+  </div>
+</section>
+
+<!-- DELIVERY -->
+<section class="delivery">
+  <div class="delivery-left">
+    <div class="delivery-badge">McDelivery</div>
+    <h2>Order for<br>Home-Delivered Smiles</h2>
+    <p>Experience delicious McDonald’s food from home.</p>
+    <button id="orderBtn">ORDER NOW</button>
+  </div>
+  <div class="delivery-right">
+    <img src="images/homedelievery.png" class="delivery-image">
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="news">
+  <h2>News & Highlights</h2>
+  <div class="news-wrap">
+    <img src="images/news.png" class="news-image">
+    <div class="news-card">
+      <p>
+        McDonald’s to hire 5,000 people, double stores in North, East India
+        <span id="moreText" style="display:none;">
+          The expansion plan includes new outlets across multiple cities to increase employment and growth.
+        </span>
+      </p>
+      <a href="#" id="readMoreBtn">Read more</a>
+    </div>
+  </div>
+</section>
+
+<!-- SUBSCRIBE -->
+<section class="subscribe">
+  <div class="subscribe-left">
+    <h2>Special Offers & News</h2>
+    <div class="form">
+      <input id="email" placeholder="Email address" />
+      <button id="subscribeBtn">SUBSCRIBE</button>
+    </div>
+    <p id="emailError" class="error-msg"></p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Educational static UI clone with JavaScript interactivity</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

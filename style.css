@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+  border-bottom: 1px solid #eee;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  background: #ffc72c;
+  color: #db0007;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-btn {
+  margin-left: 20px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #db0007;
+  color: white;
+  cursor: pointer;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: #111;
+  padding-bottom: 6px;
+}
+
+.nav a.active {
+  border-bottom: 2px solid #db0007;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  height: 500px;
+}
+
+.hero-left {
+  width: 35%;
+  background: #ffc72c;
+  padding: 48px;
+}
+
+.hero-left h1 {
+  color: #db0007;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.hero-divider {
+  width: 20px;
+  background: #000;
+}
+
+.hero-right {
+  flex: 1;
+  background: #111;
+  color: #fff;
+  padding: 48px;
+}
+
+.burger-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.burger {
+  width: 200px;
+  border-radius: 16px;
+}
+
+/* SECTION STYLING */
+section {
+  padding: 60px 48px;
+}
+
+.city .select {
+  background: #ffc72c;
+  padding: 12px;
+  border-radius: 20px;
+  width: 200px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.tooltip {
+  margin-top: 10px;
+  background: #db0007;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  width: 260px;
+}
+
+.delivery-left button {
+  background: #db0007;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.error-msg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+
+/* DARK MODE */
+.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+.dark-mode .header,
+.dark-mode .news-card,
+.dark-mode .subscribe {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .nav a {
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
